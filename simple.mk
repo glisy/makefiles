@@ -61,4 +61,4 @@ uninstall:
 ## Cleans test directory
 .PHONY: test/clean
 test/clean:
-	if test -d test; then $(MAKE) clean -C test fi
+	if test -d test; then $(MAKE) clean -C test; fi
