@@ -44,7 +44,7 @@ clean:
 ## Compiles and runs all test
 .PHONY: test
 test: $(TARGET_STATIC)
-	test -d $@ && $(MAKE) -C $@
+	if test -d; then $(MAKE) -C $@; fi
 
 ## Installs library into system
 .PHONY: install
@@ -61,4 +61,4 @@ uninstall:
 ## Cleans test directory
 .PHONY: test/clean
 test/clean:
-	test -d test && $(MAKE) clean -C test
+	if test -d test; then $(MAKE) clean -C test fi
