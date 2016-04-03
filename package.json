@@ -1,0 +1,9 @@
+{
+  "name": "glisy-makefiles",
+  "version": "0.0.1",
+  "repo": "glisy/makefiles",
+  "description": "Common Makefiles used in glisy",
+  "src": [
+    "simple.mk"
+  ]
+}
